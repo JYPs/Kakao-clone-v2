@@ -1,0 +1,33 @@
+/* .header__header-column {
+  display: inline-block;
+} 
+ 이건 .header { display: flex} 와 동일하다~~
+*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header .header__tilte {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
