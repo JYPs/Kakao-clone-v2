@@ -21,3 +21,5 @@ git commit --allow-empty -m "Trigger rebuild"
 git push
 
 3. 조금 기다린 후 재시도 한다
+
+# 변경된 사항이 있으면 반드시 master 로 변경해서 commit 하자
